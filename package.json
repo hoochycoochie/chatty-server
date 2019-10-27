@@ -1,0 +1,49 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "babel src -d dist",
+    "dev": "nodemon --exec babel-node src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^23.6.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.2.2",
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "formidable": "^1.2.1",
+    "graphql": "^14.0.2",
+    "graphql-postgres-subscriptions": "^1.0.5",
+    "graphql-redis-subscriptions": "^2.0.0",
+    "graphql-tools": "^4.0.3",
+    "jsonwebtoken": "^8.4.0",
+    "merge-graphql-schemas": "^1.5.7",
+    "pg": "^7.6.1",
+    "redis": "^2.8.0",
+    "sequelize": "^4.41.2",
+    "subscriptions-transport-ws": "^0.9.15"
+  }
+}
