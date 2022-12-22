@@ -39,7 +39,7 @@
     "graphql-postgres-subscriptions": "^1.0.5",
     "graphql-redis-subscriptions": "^2.0.0",
     "graphql-tools": "^4.0.3",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "merge-graphql-schemas": "^1.5.7",
     "pg": "^7.6.1",
     "redis": "^2.8.0",
